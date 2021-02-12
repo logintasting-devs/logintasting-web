@@ -31,6 +31,10 @@ second-section {
   fill: #F2EDED;
 }
 
+.fixed-logo {
+  width: 280px;
+}
+
 .icon {
   margin-right: 24px;
 }
