@@ -32,7 +32,8 @@ second-section {
 }
 
 .fixed-logo {
-  width: 280px;
+  width: 235px;
+  padding-bottom: 24px;
 }
 
 .icon {
