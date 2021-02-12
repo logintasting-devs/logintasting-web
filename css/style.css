@@ -36,8 +36,3 @@ second-section {
   z-index: 200;
   position: relative;
 }
-
-.page header {
-  height: 100vh;
-  display: block;
-}
