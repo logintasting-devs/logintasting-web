@@ -27,6 +27,16 @@ second-section {
   display: block;
 }
 
+.identity svg {
+  fill: #F2EDED;
+  width: 32px;
+  height: 32px;
+}
+
+.icon {
+  margin-right: 24px;
+}
+
 .page {
   color: white;
   text-align: center;
