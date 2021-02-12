@@ -1,3 +1,43 @@
 second-section {
   background-image: url(./images/hero-bg.jpg);
 }
+
+.bg-img {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../images/LoginBottle3D_v2.jpg) center top no-repeat;
+  z-index: 100;
+}
+
+@media (min-width: 50em) .bg-portrait {
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.identity {
+  color: white;
+  top: 42vh;
+  position: fixed;
+  float: left;
+  padding-left: 80px;
+  z-index: 150;
+  display: block;
+}
+
+.page {
+  color: white;
+  text-align: center;
+  max-width: 260px;
+  float: right;
+  padding-right: 80px;
+  z-index: 200;
+  position: relative;
+}
+
+.page header {
+  height: 100vh;
+  display: block;
+}
