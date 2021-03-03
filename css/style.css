@@ -17,14 +17,28 @@ second-section {
   background-size: 100%;
 }
 
+.allcontent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .identity {
   color: white;
-  top: 42vh;
-  position: fixed;
-  float: left;
-  padding-left: 80px;
+  position: relative;
+  top: 10vh;
   z-index: 150;
   display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 840px) {
+  .identity {
+    position: fixed;
+    float: left;
+    top: 42vh;
+    padding-left: 80px;
+  }
 }
 
 .identity svg {
