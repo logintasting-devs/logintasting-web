@@ -116,3 +116,7 @@ second-section {
     padding-right: 80px;
   }
 }
+
+.box {
+  background: url(../images/patterns/groovepaper.png);
+}
