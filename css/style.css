@@ -67,4 +67,5 @@ second-section {
   padding-right: 80px;
   z-index: 200;
   position: relative;
+  top: 10vh;
 }
