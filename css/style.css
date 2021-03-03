@@ -26,6 +26,7 @@ second-section {
 .identity {
   color: white;
   position: relative;
+  float: none;
   top: 10vh;
   z-index: 150;
   display: block;
