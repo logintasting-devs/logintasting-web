@@ -46,6 +46,16 @@ second-section {
   fill: #F2EDED;
 }
 
+.identity-center {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .identity-center {
+    margin: 0;
+  }
+}
+
 .fixed-logo {
   width: 235px;
   padding-bottom: 24px;
