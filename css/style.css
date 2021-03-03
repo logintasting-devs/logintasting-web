@@ -31,6 +31,7 @@ second-section {
   z-index: 150;
   display: block;
   margin: 0 auto;
+  padding-bottom: 6vh;
 }
 
 @media screen and (min-width: 1024px) {
