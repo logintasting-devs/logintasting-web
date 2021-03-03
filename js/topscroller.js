@@ -1,10 +1,7 @@
-
-document.addEventListener("DOMContentLoaded", () => {
-
     var btn = $('#TopScroller');
 
     $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
+    if ($(window).scrollTop() > 50) {
     btn.addClass('show');
     } else {
     btn.removeClass('show');
@@ -15,4 +12,3 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     $('html, body').animate({scrollTop:0}, '300');
     });
-        }
