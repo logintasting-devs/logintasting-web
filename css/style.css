@@ -62,9 +62,15 @@ second-section {
   padding-bottom: 24px;
 }
 
-.icon {
-  margin-right: 24px;
+.social-icons {
+  width: 235px;
+  display: flex;
+  justify-content: space-between;
 }
+
+/*.icon {
+  margin-right: 24px;
+}*/
 
 .icon svg {
   width: 32px;
