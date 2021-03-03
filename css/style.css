@@ -33,7 +33,7 @@ second-section {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 1024px) {
   .identity {
     position: fixed;
     float: left;
@@ -68,4 +68,29 @@ second-section {
   z-index: 200;
   position: relative;
   top: 10vh;
+  width: 360px;
+}
+
+@media screen and (min-width: 769px) {
+  .page {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .page {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .page {
+    width: 1000px;
+  }
 }
