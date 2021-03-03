@@ -63,12 +63,11 @@ second-section {
 .page {
   color: white;
   text-align: center;
-  float: right;
-  padding-right: 80px;
   z-index: 200;
   position: relative;
   top: 10vh;
   width: 360px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 769px) {
@@ -80,17 +79,23 @@ second-section {
 @media screen and (min-width: 1024px) {
   .page {
     width: 600px;
+    float: right;
+    padding-right: 80px;
   }
 }
 
 @media screen and (min-width: 1216px) {
   .page {
     width: 800px;
+    float: right;
+    padding-right: 80px;
   }
 }
 
 @media screen and (min-width: 1408px) {
   .page {
     width: 1000px;
+    float: right;
+    padding-right: 80px;
   }
 }
