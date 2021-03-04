@@ -155,22 +155,12 @@
         <!-- Stream -->
         <div class="box">
           <p class="title is-4">Stream</p>
-          <div>
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
-
-            <!-- Load the Twitch embed script -->
-            <script type="text/javascript" src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-            <script type="text/javascript">
-              new Twitch.Player("twitch-embed", {
-                width: 100%,
-                height: 50%,
-                channel: "logintasting"
-              });
-            </script>
-          </div>
+          <iframe
+          src="//player.twitch.tv/?channel=logintasting&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.5"
+          height="50%"
+          width="100%"
+          allowfullscreen="true">
+      </iframe>
         </div>
       </div>
       <hr>
