@@ -1,9 +1,6 @@
 @font-face { font-family: 'NalikaSignature';
              src: url('../fonts/NalikaSignature.otf')  format('opentype') }
-
-#NalikaSignature {
-  font-family: NalikaSignature ;
-}            
+            
 .bg-img {
   width: 100%;
   height: 100vh;
@@ -224,17 +221,21 @@
   height: 100%; 
 }
 
+
 /* Box mit border die um die Headline fließt */
 
 .borderbox {
-  border: 1px solid goldenrod;
+  border: 1.5px solid #986D56;
   border-top-width: 0;
   text-align: center;
 }
 .bt {
   display: table;
   width: 100%;
-  margin-bottom: -10px;
+  margin-bottom: -50px;
+  font-family: NalikaSignature ;
+  font-size: 40pt;
+  color: #986D56;
 }
 .bt:before, .bt > span, .bt:after {
   display: table-cell;
@@ -243,17 +244,17 @@
 .bt > span {
   padding: 0 10px;
   position: relative;
-  top: -10px;
+  top: -40px;
 }
 .bt:before {
   content: "";
-  border-top: 1px solid goldenrod;
+  border-top: 1.5px solid #986D56;
   width: 5%;
 }
 
 .bt:after {
   content: "";
-  border-top: 1px solid goldenrod;
+  border-top: 1.5px solid #986D56;
   width: 95%;
 }
 
