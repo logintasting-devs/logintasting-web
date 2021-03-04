@@ -2,7 +2,7 @@
              src: url('../fonts/NalikaSignature.otf')  format('opentype') }
 @font-face { font-family: 'Akrobat-Regular';
               src: url('../fonts/Akrobat-Regular.otf')  format('opentype') }
- 
+
 
 h1 {
   font-family: Roboto Slab;
@@ -11,7 +11,7 @@ h1 {
 p {
   font-family: Akrobat-Regular;
 }
-            
+
 .bg-img {
   width: 100%;
   height: 100vh;
@@ -109,7 +109,7 @@ p {
 }
 
 .allcontent {
-  max-width: 1920px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -216,20 +216,20 @@ p {
 }
 
 .livestream {
-  position: relative; 
+  position: relative;
   padding-bottom: 56.25%; /* ratio 16x9 */
-  height: 0; 
-  overflow: hidden; 
+  height: 0;
+  overflow: hidden;
   width: 100%;
   height: auto;
 }
 .livestream iframe {
 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
