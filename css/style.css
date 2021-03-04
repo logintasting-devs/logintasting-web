@@ -1,5 +1,15 @@
 @font-face { font-family: 'NalikaSignature';
              src: url('../fonts/NalikaSignature.otf')  format('opentype') }
+@font-face { font-family: 'Akrobat-Regular';
+              src: url('../fonts/Akrobat-Regular.otf')  format('opentype') }
+             
+h1 {
+  font-family: Roboto Slab;
+}
+
+p {
+  font-family: Akrobat-Regular;
+}
             
 .bg-img {
   width: 100%;
