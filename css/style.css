@@ -2,7 +2,8 @@
              src: url('../fonts/NalikaSignature.otf')  format('opentype') }
 @font-face { font-family: 'Akrobat-Regular';
               src: url('../fonts/Akrobat-Regular.otf')  format('opentype') }
-             
+ 
+
 h1 {
   font-family: Roboto Slab;
 }
@@ -108,7 +109,7 @@ p {
 }
 
 .allcontent {
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 20px;
 }
