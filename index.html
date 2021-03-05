@@ -22,6 +22,8 @@
   <!-- script
     ================================================== -->
   <script src="/js/card.js"></script>
+  <script src="/js/burgernav.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <!-- favicons
  	  ================================================== -->
@@ -42,6 +44,43 @@
       <img src="" />
     </div>
   </div>
+
+  <!-- Nav -->
+  <nav class="navbar is-fixed-top is-transparent">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="">
+          Wilkommen
+        </a>
+          <a class="navbar-item" href="">
+          Informationen
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="">
+            Gin Angebot / Hersteller
+          </a>
+            <div class="navbar-start">
+          <div class="navbar-dropdown is-right is-boxed">
+            <a class="navbar-item" href="">
+              Needle
+            </a>
+            <a class="navbar-item" href="">
+              Boar
+            </a>
+            <a class="navbar-item" href="">
+              Black Forrest
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <!-- Back to top button -->
   <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
