@@ -238,7 +238,7 @@ p {
 /* Box mit border die um die Headline fließt */
 
 .borderbox {
-  border: 1.5px solid #986D56;
+  border: 5px solid #eee7df;
   border-top-width: 0;
   text-align: center;
 }
@@ -261,13 +261,13 @@ p {
 }
 .bt:before {
   content: "";
-  border-top: 1.5px solid #986D56;
+  border-top: 5px solid #eee7df;
   width: 5%;
 }
 
 .bt:after {
   content: "";
-  border-top: 1.5px solid #986D56;
+  border-top: 5px solid #eee7df;
   width: 95%;
 }
 
