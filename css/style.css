@@ -12,6 +12,10 @@ p {
   font-family: Akrobat-Regular;
 }
 
+body {
+  font-size: 1.1em;
+}
+
 .bg-img {
   top: 0;
   left: 0;
