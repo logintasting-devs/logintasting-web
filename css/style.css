@@ -14,9 +14,13 @@ p {
 
 body {
   font-size: 1.1em;
+  background-size: auto 100%!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-image: url(../images/loginbottle_wald.jpg)!important;
 }
 
-.bg-img {
+/*.bg-img {
   top: 0;
   left: 0;
   width: 100%;
@@ -25,7 +29,7 @@ body {
   background-size: cover;
   background-position: center;
   background-image: url(../images/loginbottle_wald.jpg);
-}
+}*/
 
 .scroller {
   height: 15vh;
