@@ -66,7 +66,8 @@
   </div>
 
   <!-- Back to top button -->
-  <a id="topscroller"><svg xmlns="http://www.w3.org/2000/svg"><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg></a>
+  <a id="topscroller"><svg xmlns="http://www.w3.org/2000/svg">
+      <path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z" /></svg></a>
 
   <div class="allcontent">
 
@@ -179,86 +180,93 @@
           <h1 class="title is-4">Gin Angebot / Hersteller</h1>
           <div class="container-card">
             <div class="cardWrap">
-                <div class="card">
-                    <div class="cardBg"
-                        style="background-image: url('https://images.unsplash.com/photo-1613719665515-9ffcd7f9ff62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80');">
-                    </div>
-                    <div class="cardInfo">
-                        <h3 class="cardTitle">
-                            Serhat Mutlu
-                        </h3>
-                        <p>Serhat Mutlu Signature Gin</p>
-                    </div>
+              <div class="card">
+                <div class="cardBg" style="background-image: url('https://images.unsplash.com/photo-1613719665515-9ffcd7f9ff62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80');">
                 </div>
+                <div class="cardInfo">
+                  <h3 class="cardTitle">
+                    Serhat Mutlu
+                  </h3>
+                  <p>Serhat Mutlu Signature Gin</p>
+                </div>
+              </div>
             </div>
-        </div>
-      </div>
-      </br>
-      <div>
-        <!-- Bestellen -->
-        <div class="box" id="bestellen">
-          <h1 class="title is-4">Bestellen</h1>
-          <p class="subtitle is-5">Jetzt deine Box bestellen</p>
-          <p class="content has-text-left">Ein paar völlig zugedröhnte mediengestalter</p>
-        </div>
-      </div>
-      </br>
-      <div>
-        <!-- Stream -->
-        <div class="box" id="stream">
-          <h1 class="title is-4">Livestream</h1>
-          <div class="livestream">
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
-
-            <!-- Load the Twitch embed script -->
-            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-            <script type="text/javascript">
-              new Twitch.Player("twitch-embed", {
-                channel: "logintasting",
-              });
-            </script>
           </div>
         </div>
-      </div>
-      </br>
-      <div>
-        <!-- Spenden -->
-        <div class="box" id="spenden">
-          <h1 class="title is-4">Spenden</h1>
-          <p class="content has-text-centered">Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.<br>
-            Login Gintasting - jetzt Spenden.</p>
+        </br>
+        <div>
+          <!-- Bestellen -->
+          <div class="box" id="bestellen">
+            <h1 class="title is-4">Bestellen</h1>
+            <p class="subtitle is-5">Jetzt deine Box bestellen</p>
+            <p class="content has-text-left">Ein paar völlig zugedröhnte mediengestalter</p>
+          </div>
         </div>
-      </div>
-      </br>
-      <div>
-        <!-- footer -->
-        <div class="box">
-          <div class="content has-text-centered">
-            <p>
-              <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-              is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-            </p>
+        </br>
+        <div>
+          <!-- Stream -->
+          <div class="box" id="stream">
+            <h1 class="title is-4">Livestream</h1>
+            <div class="livestream">
+              <!-- Add a placeholder for the Twitch embed -->
+              <div id="twitch-embed"></div>
+
+              <!-- Load the Twitch embed script -->
+              <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+              <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+              <script type="text/javascript">
+                new Twitch.Player("twitch-embed", {
+                  channel: "logintasting",
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+        </br>
+        <div>
+          <!-- Spenden -->
+          <div class="box" id="spenden">
+            <h1 class="title is-4">Spenden</h1>
+            <p class="content has-text-centered">Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.<br>
+              Login Gintasting - jetzt Spenden.</p>
+          </div>
+        </div>
+        </br>
+        <div>
+          <!-- footer -->
+          <div class="box">
+            <div class="content has-text-centered">
+              <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <!-- background image start
+    <!-- background image start
   ================================================== -->
-  <div class="bg-img" style="display:block;">
-  </div>
+    <div class="animation-wrapper">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+    </div>
+
+
+    <!-- background image start
+  ================================================== -->
+    <div class="bg-img" style="display:block;">
+    </div>
 
 </body>
 
