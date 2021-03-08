@@ -7,17 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#navbar {
-  background-color:rgba(0,0,0,0);
-  z-index: 200;
-}
-
-@media screen and (min-width: 1024px) {
-  #navcolor {
-    color: white;
-  }
-}
-
 h1 {
   font-family: Roboto Slab;
 }
@@ -288,3 +277,87 @@ body {
   border-top: 5px solid #eee7df;
   width: 95%;
 }
+
+
+/* Nav */
+
+.wrapper__checkbox {
+  display: none;
+}
+
+.wrapper__checkbox:checked~.wrapper__menu {
+  right: 0;
+}
+
+.wrapper__checkbox:checked~.wrapper__button .wrapper__button-line:nth-child(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.wrapper__checkbox:checked~.wrapper__button .wrapper__button-line:nth-child(2) {
+  opacity: 0;
+}
+
+.wrapper__checkbox:checked~.wrapper__button .wrapper__button-line:nth-child(3) {
+  transform: rotate(-45deg);
+  top: -6px;
+}
+
+.wrapper__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  background: url(../images/patterns/groovepaper.png);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 220;
+}
+
+.wrapper__button-line {
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 0px;
+  background: #000;
+  margin: 2px 0;
+  position: relative;
+  transition: all .2s;
+}
+
+.wrapper__menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 100px 40px 40px;
+  transition: right .4s;
+  z-index: 210;
+}
+
+.wrapper__menu-link {
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  transition: all .2s linear;
+}
+
+.wrapper__menu-link:hover {
+  padding-right: 20px;
+}
+
