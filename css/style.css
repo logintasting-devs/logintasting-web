@@ -76,46 +76,49 @@ body {
 	}
 }
 
-#return-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
+/* return to top */
+
+#topscroller svg {
+  width: 235px;
+  display: flex;
+}
+
+#topscroller {
+  display: inline-block;
+  background: url(../images/patterns/groovepaper.png);
   width: 50px;
   height: 50px;
-  display: block;
-  text-decoration: none;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  border-radius: 35px;
-  display: none;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
-#return-to-top i {
+#topscroller::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
   color: #fff;
-  margin: 0;
-  position: relative;
-  left: 16px;
-  top: 13px;
-  font-size: 19px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
-#return-to-top:hover {
-  background: rgba(0, 0, 0, 0.9);
+#topscroller:hover {
+  cursor: pointer;
+  background-color: #333;
 }
-#return-to-top:hover i {
-  color: #fff;
-  top: 5px;
+#topscroller:active {
+  background-color: #555;
 }
+#topscroller.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* end return to top */
 
 .allcontent {
   max-width: 1440px;
@@ -168,14 +171,13 @@ body {
   justify-content: space-between;
 }
 
-/*.icon {
-  margin-right: 24px;
-}*/
 
 .icon svg {
   width: 32px;
   height: 32px;
 }
+
+/* content page */
 
 .page {
   color: white;
@@ -219,10 +221,13 @@ body {
     top: 84vh;
   }
 }
+/* texture */
 
 .box {
   background: url(../images/patterns/groovepaper.png);
 }
+
+/* Livestream */
 
 .livestream {
   position: relative;
@@ -310,13 +315,14 @@ body {
   flex-direction: column;
   width: 50px;
   height: 50px;
-  border-radius: 2px;
+  border-radius: 4px;
   background: url(../images/patterns/groovepaper.png);
   position: fixed;
   top: 20px;
   right: 20px;
   cursor: pointer;
   z-index: 220;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 .wrapper__button-line {
@@ -349,15 +355,19 @@ body {
 .wrapper__menu-link {
   font-size: 18px;
   line-height: 20px;
-  color: #fff;
+  color: #EEE7DF;
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 30px;
   padding: 5px 10px;
   transition: all .2s linear;
+  font-family: Roboto Slab, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .wrapper__menu-link:hover {
   padding-right: 20px;
+  color: #59A87B;
 }
 
