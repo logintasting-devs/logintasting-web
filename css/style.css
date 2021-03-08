@@ -31,7 +31,7 @@ body {
 }
 
 .scroller {
-  height: 15vh;
+  height: 20vh;
   display: none;
  flex-direction: column;
  align-items: center;
@@ -200,7 +200,7 @@ body {
     width: 600px;
     float: right;
     padding-right: 80px;
-    top: 84vh;
+    top: 80vh;
   }
 }
 
@@ -209,7 +209,7 @@ body {
     width: 800px;
     float: right;
     padding-right: 80px;
-    top: 84vh;
+    top: 80vh;
   }
 }
 
@@ -218,7 +218,7 @@ body {
     width: 1000px;
     float: right;
     padding-right: 80px;
-    top: 84vh;
+    top: 80vh;
   }
 }
 /* texture */
