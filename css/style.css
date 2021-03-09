@@ -381,10 +381,7 @@ body {
     width: 100%;
     height: 0.4em;
   }
-  
-progress::-webkit-progress-bar {
-  background-color: rgba(0, 0, 0, 0.0);
-}
+
 progress::-webkit-progress-value {
   background-color: #004D3E;
   border-radius: 0.2em;

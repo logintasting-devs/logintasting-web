@@ -2393,11 +2393,12 @@ fieldset[disabled] .button {
 }
 
 .progress::-webkit-progress-bar {
-  background-color: #ededed;
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
 .progress::-webkit-progress-value {
-  background-color: #4a4a4a;
+  background-color: #004D3E;
+  border-radius: 0.2em;
 }
 
 .progress::-moz-progress-bar {
