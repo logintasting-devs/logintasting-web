@@ -27,7 +27,8 @@ body {
   position: fixed;
   background-size: cover;
   background-position: center;
-  background-image: url(../images/loginbottle_09_AF.jpg);
+  /*background-image: url(../images/loginbottle_09_AF.jpg);*/
+  background-image: url(../images/bg/20210309MR_Login-BG_edit2.jpg);
 }
 
 .scroller {
@@ -93,7 +94,7 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s,
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
@@ -370,4 +371,3 @@ body {
   padding-right: 20px;
   color: #59A87B;
 }
-
