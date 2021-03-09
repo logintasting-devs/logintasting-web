@@ -23,9 +23,10 @@
 
   <!-- script
     ================================================== -->
-  <script type="text/javascript" src="js/card.js"></script>
+  <script type="text/javascript" src="js/card.js" async></script>
   <script type="text/javascript" src="js/burgernav.js" async></script>
   <script type="text/javascript" src="js/topscroller.js" async></script>
+  <script type="text/javascript" src="js/progress.js" async></script>
 
   <!-- favicons
  	  ================================================== -->
@@ -65,6 +66,9 @@
       <a href="#spenden" class="wrapper__menu-link">Spenden</a>
     </div>
   </div>
+
+  <!-- Scrollindicator -->
+  <progress class="progress is-small is-primary" id="mybar" value="0" max="100"></progress>
 
   <!-- Back to top button -->
   <a id="topscroller"><svg xmlns="http://www.w3.org/2000/svg">
@@ -125,8 +129,11 @@
           </a>
         </div>
       </div>
-    </div>
+      <div class="countdown">
 
+      </div>
+    </div>
+    
 
 
     <!-- content start

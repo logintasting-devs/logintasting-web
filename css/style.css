@@ -371,3 +371,16 @@ body {
   padding-right: 20px;
   color: #59A87B;
 }
+
+ /* Style the header: fixed position (always stay at the top) */
+ .progress {
+  z-index: 201;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+
+  #mybar{
+    border-radius: unset; 
+  }
+  

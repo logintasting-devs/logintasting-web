@@ -2474,19 +2474,19 @@ fieldset[disabled] .button {
 }
 
 .progress.is-primary::-webkit-progress-value {
-  background-color: #00d1b2;
+  background-color: #004D3E;
 }
 
 .progress.is-primary::-moz-progress-bar {
-  background-color: #00d1b2;
+  background-color: #004D3E;
 }
 
 .progress.is-primary::-ms-fill {
-  background-color: #00d1b2;
+  background-color: #004D3E;
 }
 
 .progress.is-primary:indeterminate {
-  background-image: linear-gradient(to right, #00d1b2 30%, #ededed 30%);
+  background-image: linear-gradient(to right, #004D3E 30%, #EEE7DF 30%);
 }
 
 .progress.is-link::-webkit-progress-value {
@@ -2598,7 +2598,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-small {
-  height: 0.75rem;
+  height: 0.2rem;
 }
 
 .progress.is-medium {
