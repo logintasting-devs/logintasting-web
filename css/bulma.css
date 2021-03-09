@@ -2398,7 +2398,8 @@ fieldset[disabled] .button {
 
 .progress::-webkit-progress-value {
   background-color: #004D3E;
-  border-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
 }
 
 .progress::-moz-progress-bar {
