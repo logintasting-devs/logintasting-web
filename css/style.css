@@ -375,7 +375,7 @@ body {
  /* Style the header: fixed position (always stay at the top) */
 #mybar{
     border-radius: unset; 
-    z-index: 201;
+    z-index: 999;
     position: fixed;
     top: 0;
     width: 100%;
