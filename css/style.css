@@ -389,11 +389,12 @@ progress::-webkit-progress-value {
 
 /* mo's footer */
 .mos-footer {
-  background-color: #383838;
+  padding-top: 220px;
+  margin-top: 220px;
+  background: #383838;
   width: 100%;
   height: 240px;
   position: relative;
   display: block;
-  overflow: hidden;
-  z-index: 220px;
+  z-index: 220;
 }
