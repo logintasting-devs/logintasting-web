@@ -355,14 +355,14 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: #454C53;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
 }
 
 a {
-  color: #3273dc;
+  color: #59A87B;
   cursor: pointer;
   text-decoration: none;
 }
@@ -372,7 +372,7 @@ a strong {
 }
 
 a:hover {
-  color: #363636;
+  color: #004D3E;
 }
 
 code {
