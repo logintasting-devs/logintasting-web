@@ -246,6 +246,16 @@ body {
   height: 100%;
 }
 
+/* Newsletter */
+ .newsletter iframe{
+   height: 100%;
+   width: auto;
+ }
+
+ .newsletter iframe {
+
+ }
+
 
 /* Box mit border die um die Headline fließt */
 
