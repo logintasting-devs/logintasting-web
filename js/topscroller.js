@@ -1,21 +1,21 @@
-function goToTop(event) {
-  event.preventDefault()
-  window.scroll({
+document.addEventListener("DOMContentLoaded", e => {
+  let topscroller = document.getElementById("topscroller")
+
+  topscroller.addEventListener("click", event => {
+    event.preventDefault()
+    window.scroll({
       top: 0,
       behavior: "smooth"
+    })
   })
-}
 
-document.getElementById("topscroller").addEventListener("click", e => {
-  goToTop(e)
-})
-
-window.addEventListener("scroll", () => {
-  if(window.scrollY > 1260) {
-    document.getElementById("topscroller").style.visibility = "visible"
-    document.getElementById("topscroller").style.opacity = 1
-  } else if(window.scrollY < 1260) {
-    document.getElementById("topscroller").style.visibility = "hidden"
-    document.getElementById("topscroller").style.opacity = 0
-  }
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 500) {
+      topscroller.style.visibility = "visible"
+      topscroller.style.opacity = 1
+    } else if (window.scrollY < 500) {
+      topscroller.style.visibility = "hidden"
+      topscroller.style.opacity = 0
+    }
+  })
 })
