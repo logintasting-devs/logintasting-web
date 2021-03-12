@@ -1,15 +1,21 @@
-// ===== Scroll to Top ==== 
-var btn = $('#topscroller');
+function goToTop(event) {
+  event.preventDefault()
+  window.scroll({
+      top: 0,
+      behavior: "smooth"
+  })
+}
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 50) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
+document.getElementById("topscroller").addEventListener("click", e => {
+  goToTop(e)
+})
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > 1260) {
+    document.getElementById("topscroller").style.visibility = "visible"
+    document.getElementById("topscroller").style.opacity = 1
+  } else if(window.scrollY < 1260) {
+    document.getElementById("topscroller").style.visibility = "hidden"
+    document.getElementById("topscroller").style.opacity = 0
   }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '50');
-});
+})
