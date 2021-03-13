@@ -465,7 +465,7 @@ height: 400px;
 
 .loading__letter {
 
-  font-size: 88px;
+  font-size: 20px;
 
   font-weight: normal;
 
@@ -489,7 +489,7 @@ height: 400px;
 
   40% {
 
-    transform: translateY(-40px);
+    transform: translateY(-20px);
 
   }
 
@@ -505,7 +505,7 @@ height: 400px;
 
 .loading__letter {
 
-  font-size: 88px;
+  font-size: 20px;
 
   font-weight: normal;
 
