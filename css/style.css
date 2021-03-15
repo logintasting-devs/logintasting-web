@@ -1,8 +1,9 @@
 @font-face { font-family: 'NalikaSignature';
-             src: url('../fonts/NalikaSignature.otf')  format('opentype') }
+             src: url('../fonts/NalikaSignature.otf')  format('opentype');
+             font-display: swap;}
 @font-face { font-family: 'Akrobat-Regular';
-              src: url('../fonts/Akrobat-Regular.otf')  format('opentype') }
-
+              src: url('../fonts/Akrobat-Regular.otf')  format('opentype');
+              font-display: swap;}
 html {
   scroll-behavior: smooth;
 }
