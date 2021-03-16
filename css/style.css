@@ -406,3 +406,31 @@ progress::-webkit-progress-value {
   display: block;
   z-index: 220;
 }
+/* countdown */
+
+.countdown {
+  justify-content: center;
+  display: flex;
+}
+
+#countdown {
+  margin-top: 30px;
+  margin-right: 5px;
+  padding: 5px 0 5px 0;
+  color: #fff;
+  border: 1px solid #EEE7DF;
+  border-width: 1px 0;
+  font-family: Akrobat-Regular;
+}
+#countdown li {
+  margin: 0 -3px 0 0;
+  padding: 5px;
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+}
+#countdown li .label {
+  color: #EEE7DF;
+  font-size: 15px;
+  text-transform: uppercase;
+}
