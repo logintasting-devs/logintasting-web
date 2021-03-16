@@ -26,10 +26,8 @@ document.addEventListener("DOMContentLoaded", e => {
       // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("days").innerHTML = "00";
-        document.getElementById("hours").innerHTML = "00";
-        document.getElementById("minutes").innerHTML = "00";
-        document.getElementById("seconds").innerHTML = "00";
+        document.querySelector(".date").style.display = "none";
+        document.querySelector(".livestream-button").style.display = "flex";
     }
 
     }, 1000);
