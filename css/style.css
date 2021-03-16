@@ -408,13 +408,16 @@ progress::-webkit-progress-value {
 }
 /* countdown */
 
+.date {
+  margin-top: 10px;
+}
+
 .countdown {
   justify-content: center;
   display: flex;
 }
 
 #countdown {
-  margin-top: 30px;
   margin-right: 5px;
   padding: 5px 0 5px 0;
   color: #EEE7DF;
