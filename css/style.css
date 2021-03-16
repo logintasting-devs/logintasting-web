@@ -418,7 +418,6 @@ progress::-webkit-progress-value {
 }
 
 #countdown {
-  margin-right: 5px;
   padding: 5px 0 5px 0;
   color: #EEE7DF;
   border: 1px solid #EEE7DF;
