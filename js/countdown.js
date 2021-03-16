@@ -22,8 +22,12 @@ document.addEventListener("DOMContentLoaded", e => {
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
-    
-      // If the count down is finished, write some text
+
+     // If the count down is under 7 days, show seconds
+    if (distance < 604800000) {
+      document.querySelector(".seconds").style.display = "inline-block";
+    }
+      // If the count down is finished, show button
     if (distance < 0) {
         clearInterval(x);
         document.querySelector(".date").style.display = "none";

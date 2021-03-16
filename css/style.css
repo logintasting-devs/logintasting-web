@@ -409,6 +409,10 @@ progress::-webkit-progress-value {
 /* countdown */
 
 .date {
+  margin-top: 30px;
+}
+
+.date p {
   margin-top: 10px;
 }
 
@@ -420,13 +424,12 @@ progress::-webkit-progress-value {
 #countdown {
   padding: 5px 0 5px 0;
   color: #EEE7DF;
-  border: 1px solid #EEE7DF;
-  border-width: 1px 0;
+  border-bottom: 1px solid #EEE7DF;
   font-family: Akrobat-Regular;
 }
 #countdown li {
   margin: 0 -3px 0 0;
-  padding: 5px;
+  padding: 0 5px 0 5px;
   display: inline-block;
   font-size: 30px;
   text-align: center;
