@@ -34,10 +34,5 @@ document.addEventListener("DOMContentLoaded", e => {
         document.querySelector(".livestream-button").style.display = "flex";
     }
 
-    if (navigator.userAgent.indexOf('Safari')) {
-      document.querySelector(".date").style.display = "none";
-      document.querySelector(".livestream-button").style.display = "flex";
-    }
-
     }, 1000);
 })
