@@ -28,7 +28,7 @@ body {
   position: fixed;
   background-size: cover;
   background-position: center;
-  background-image: url(../images/bg/20210309MR_Login-BG_edit2.jpg);
+  background-image: url(../images/bg/login_bg_neu-1080.jpg);
 }
 
 .scroller {
@@ -109,7 +109,7 @@ body {
   }
 
   div.arrow::before {
-    border-color: #F2EDED; 
+    border-color: #F2EDED;
   }
 
   div.arrow {
@@ -120,7 +120,7 @@ body {
 
 @media screen and (max-width: 550px) {
   div.arrow::before {
-    border-color: black;; 
+    border-color: black;;
   }
 
   div.arrow {
