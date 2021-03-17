@@ -104,12 +104,12 @@ body {
 
 @media screen and (min-width: 550px) {
   #topscroller {
-    border: 3px solid #EEE7DF;
+    border: 3px solid #F2EDED;
     background: none;
   }
 
   div.arrow::before {
-    border-color: #EEE7DF; 
+    border-color: #F2EDED; 
   }
 
   div.arrow {
@@ -178,7 +178,7 @@ div.arrow:hover::before {
 }
 
 .identity {
-  color: white;
+  color: #F2EDED;
   position: relative;
   float: none;
   top: 10vh;
@@ -192,7 +192,7 @@ div.arrow:hover::before {
   .identity {
     position: fixed;
     float: left;
-    top: 42vh;
+    top: 37vh;
     padding-left: 80px;
   }
 }
@@ -231,7 +231,7 @@ div.arrow:hover::before {
 /* content page */
 
 .page {
-  color: white;
+  color: #F2EDED;
   text-align: center;
   z-index: 200;
   position: relative;
@@ -384,12 +384,12 @@ div.arrow:hover::before {
 
 @media screen and (min-width: 550px) {
   .wrapper__button {
-    border: 3px solid #EEE7DF;
+    border: 3px solid #F2EDED;
     background: none;
   }
 
   .wrapper__button-line {
-    background: #EEE7DF;
+    background: #F2EDED;
   }
 }
 
@@ -488,8 +488,8 @@ progress::-webkit-progress-value {
 
 #countdown {
   padding: 5px 0 5px 0;
-  color: #EEE7DF;
-  border-bottom: 1px solid #EEE7DF;
+  color: #F2EDED;
+  border-bottom: 1px solid #F2EDED;
   font-family: Akrobat-Regular;
 }
 #countdown li {
@@ -500,7 +500,7 @@ progress::-webkit-progress-value {
   text-align: center;
 }
 #countdown li .label {
-  color: #EEE7DF;
+  color: #F2EDED;
   font-size: 15px;
   text-transform: uppercase;
 }
