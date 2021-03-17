@@ -308,8 +308,7 @@
             <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
             <!--  END - We recommend to place the above code in head tag of your website html -->
             <!-- START - We recommend to place the below code where you want the form in your website html  -->
-            <div class="sib-form" style="text-align: center;
-                    background-color: transparent;                                 ">
+            <div class="sib-form" style="text-align: center; background-color: transparent; padding: 0px;">
               <div id="sib-form-container" class="sib-form-container">
                 <div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:  Helvetica  , sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
                   <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -335,43 +334,39 @@
                   </div>
                 </div>
                 <div></div>
-                <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center; background-color:transparent; max-width:540px; border-radius:3px; border-width:1px; border-color:transparent; border-style:solid;">
+                <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center; background-color:transparent; max-width:480px; border-radius:3px; border-width:1px; border-color:transparent; border-style:solid; padding: 0px;">
                   <form id="sib-form" method="POST" action="https://83b2bd17.sibforms.com/serve/MUIEAPTwbV8KGkFfzFYSx1uk-sgrF6jLC2d-Q8pNR-Mg2P-wxWPh2T9eyJPbjJhqCbKGSIcM_y1TryqufU8vv4yvrFApiEcnZHIXlXH58UCMwj7vyCW54_-sCKh7Fi8Yc97K2jw1X06Yk0PBlVrnhqfx9I-bpfTfwSBRgAGEqJIbLGCHplxUG42veDc1kVgGdI5NoAI5g6p8YGR7"
                     data-type="subscription">
-                    <div style="padding-bottom: 8px;">
-                      <div class="sib-input sib-form-block">
-                        <div class="form__entry entry_block">
-                          <div class="form__label-row form__label-row--horizontal">
-                            <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:  Helvetica  , sans-serif; color:#3c4858;" for="NAME" data-required="*">
-                              Name
-                            </label>
-
-                            <div class="entry__field">
-                              <input class="input" maxlength="200" type="text" id="NAME" name="NAME" autocomplete="off" placeholder="Max Mustermann" data-required="true" required />
-                            </div>
-                          </div>
-
-                          <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:  Helvetica  , sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row form__label-row--horizontal">
+                          <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:  Helvetica  , sans-serif; color:#454C53; margin: 12px auto;" for="NAME" data-required="*">
+                            Name
                           </label>
+
+                          <div class="entry__field">
+                            <input class="input" maxlength="200" type="text" id="NAME" name="NAME" autocomplete="off" placeholder="Max Mustermann" data-required="true" required />
+                          </div>
                         </div>
+
+                        <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:  Helvetica  , sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                        </label>
                       </div>
                     </div>
-                    <div style="padding: 8px 0;">
-                      <div class="sib-input sib-form-block">
-                        <div class="form__entry entry_block">
-                          <div class="form__label-row form__label-row--horizontal">
-                            <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:  Helvetica  , sans-serif; color:#3c4858;" for="EMAIL" data-required="*">
-                              E-Mail-Adresse
-                            </label>
-
-                            <div class="entry__field">
-                              <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="meine@email.de" data-required="true" required />
-                            </div>
-                          </div>
-
-                          <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:  Helvetica  , sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                    <div class="sib-input sib-form-block">
+                      <div class="form__entry entry_block">
+                        <div class="form__label-row form__label-row--horizontal">
+                          <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:  Helvetica  , sans-serif; color:#454C53; margin: 12px auto;" for="EMAIL" data-required="*">
+                            E-Mail-Adresse
                           </label>
+
+                          <div class="entry__field">
+                            <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="meine@email.de" data-required="true" required />
+                          </div>
                         </div>
+
+                        <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:  Helvetica  , sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                        </label>
                       </div>
                     </div>
                     <div style="padding: 8px 0;">
@@ -391,10 +386,10 @@
                         </div>
                         <p style="font-size:14px; text-align:left; font-family:  Helvetica  , sans-serif; color:#687484; background-color:transparent;">
                           Wir versenden unseren Newsletter mit 
-                          <a target="_blank" class="clickable_link"
+                          <a target="_blank" class="clickable_link" style="color: #59A87B;"
                             href="https://de.sendinblue.com">Sendinblue</a>.
                           </br>Beim absenden bestätigen Sie die 
-                          <a target="_blank" class="clickable_link"
+                          <a target="_blank" class="clickable_link" style="color: #59A87B;"
                             href="https://de.sendinblue.com/legal/termsofuse/">Nutzungsbedingungen</a>.
                         </p>
                       </div>
