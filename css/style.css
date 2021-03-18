@@ -471,6 +471,7 @@ progress::-webkit-progress-value {
   display: block;
   z-index: 220;
 }
+
 /* countdown */
 
 .date {
@@ -508,4 +509,18 @@ progress::-webkit-progress-value {
 .livestream-button {
   margin-top: 10px;
   justify-content: center;
+}
+
+.has-border-left {
+ border-left: solid 2px whitesmoke;
+ border-radius: 1px;
+}
+
+.has-border-right {
+  border-right: solid 2px whitesmoke;
+  border-radius: 1px;
+}
+
+#fotter svg {
+  fill: #004D3E;
 }
