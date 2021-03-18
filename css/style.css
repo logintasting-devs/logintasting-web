@@ -510,7 +510,7 @@ progress::-webkit-progress-value {
   margin-top: 10px;
   justify-content: center;
 }
-
+/* Green Bar */
 .greenbar {
   background-color: #004D3E;
   height: 10vh;
