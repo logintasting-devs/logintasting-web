@@ -510,6 +510,7 @@ progress::-webkit-progress-value {
   margin-top: 10px;
   justify-content: center;
 }
+
 /* Green Bar */
 .greenbar {
   background-color: #004D3E;
@@ -519,5 +520,15 @@ progress::-webkit-progress-value {
   left: 0;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-  box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.6);
+  /*box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.6);*/
+}
+.greenbar_inhalt{
+  box-shadow: inset 0px 10px 20px -10px rgba(0, 0, 0, 0.6);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+  padding-top: 2.5rem;
+  background: url(../images/patterns/groovepaper.png);
 }
