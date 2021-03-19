@@ -532,3 +532,8 @@ progress::-webkit-progress-value {
   padding-top: 2.5rem;
   background: url(../images/patterns/groovepaper.webp);
 }
+
+
+#re {
+  color: #004D3E;
+}
