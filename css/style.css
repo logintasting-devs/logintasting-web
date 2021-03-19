@@ -533,7 +533,3 @@ progress::-webkit-progress-value {
   background: url(../images/patterns/groovepaper.webp);
 }
 
-/* read more */
-#more {
-  display: none;
-}
