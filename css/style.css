@@ -186,6 +186,7 @@ div.arrow:hover::before {
   display: block;
   margin: 0 auto;
   padding-bottom: 6vh;
+  z-index: 250;
 }
 
 @media screen and (min-width: 1024px) {
@@ -509,6 +510,8 @@ progress::-webkit-progress-value {
 .livestream-button {
   margin-top: 10px;
   justify-content: center;
+  font-family: Akrobat-Regular !important;
+  font-weight: 300 !important;
 }
 
 /* Green Bar */
@@ -533,3 +536,16 @@ progress::-webkit-progress-value {
   background: url(../images/patterns/groovepaper.webp);
 }
 
+.addeventatc {
+  margin-top: 0 auto;
+  justify-content: center;
+  z-index: 99999;
+  font-family: Akrobat-Regular !important;
+  font-weight: 300 !important;
+}
+.Calendar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
