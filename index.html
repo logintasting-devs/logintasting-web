@@ -71,6 +71,19 @@
   <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="ab0dd397-1d64-4226-8dce-8d4395833aa2"
     data-blockingmode="auto" type="text/javascript"></script>
   <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+  <!-- AddEvent Settings -->
+  <script type="text/javascript">
+      window.addeventasync = function(){
+        addeventatc.settings({
+          appleical  : {show:true, text:"Apple Calendar"},
+          google     : {show:true, text:"Google <em>(online)</em>"},
+          office365  : {show:false, text:"Office 365 <em>(online)</em>"},
+          outlook    : {show:true, text:"Outlook <em>(oder andere)</em>"},
+          outlookcom : {show:false, text:"Outlook.com <em>(online)</em>"},
+          yahoo      : {show:false, text:"Yahoo <em>(online)</em>"},
+        });
+      };
+  </script>
 
   <!-- favicons
  	  ================================================== -->
@@ -193,7 +206,7 @@
 
       <!-- Add to Calendar -->
       <div class="pt-5 Calendar">
-        <div title="Add to Calendar" class="addeventatc">
+        <div title="Add to Calendar" class="addeventatc" data-dropdown-y="up">
           Zum Kalender hinzufügen
           <span class="start">04/30/2021 19:00</span>
           <span class="end">04/30/2021 22:00</span>
@@ -201,6 +214,8 @@
           <span class="title">Login Tasting</span>
           <span class="description">Online Gin Tasting Event</span>
           <span class="location">Livestream</span>
+          <span class="alarm_reminder">15</span>
+          <span class="alarm_reminder">60</span>
         </div>
       </div>
     </div>
