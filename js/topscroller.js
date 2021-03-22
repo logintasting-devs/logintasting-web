@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", e => {
   if(window.innerWidth > 1024) {
-    window.scroll(0, 0)
-
     setTimeout(() => {
-      window.scroll({
-        top: 200,
-        behavior: "smooth"
-      })
+      if(window.scrollY < 1) {
+        window.scroll(0, 0)
+        window.scroll({
+          top: 200,
+          behavior: "smooth"
+        })
+      }
     }, 6000);
   }
 
