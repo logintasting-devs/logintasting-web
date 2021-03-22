@@ -544,10 +544,22 @@ progress::-webkit-progress-value {
   z-index: 99999;
   font-family: Akrobat-Regular !important;
   font-weight: 300 !important;
+  background: rgba(0, 0, 0, 0.0);
+  border-color: #F2EDED;
+  color: #F2EDED !important;
 }
 .Calendar {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.addeventatc .addeventatc_icon {
+  background: url(../images/icon-calendar.svg) no-repeat !important;
+}
+
+.addeventatc:hover {
+  background-color: #004D3E !important;
+  border-color: #004D3E;
 }
