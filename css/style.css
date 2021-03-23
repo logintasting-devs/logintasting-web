@@ -249,14 +249,14 @@ div.arrow:hover::before {
 
 @media screen and (min-width: 1024px) {
   .page {
-    width: 600px;
+    width: 640px;
     float: right;
     padding-right: 80px;
     top: 80vh;
   }
 }
 
-@media screen and (min-width: 1216px) {
+@media screen and (min-width: 1190px) {
   .page {
     width: 800px;
     float: right;
