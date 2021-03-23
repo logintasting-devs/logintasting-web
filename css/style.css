@@ -569,4 +569,11 @@ progress::-webkit-progress-value {
 .tag:not(body).is-primary {
     background-color: #004D3E !important;
     color: #fff;
+    font-family: Roboto Slab !important;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  font-family: Akrobat-Regular !important;
 }
