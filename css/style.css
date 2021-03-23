@@ -563,3 +563,10 @@ progress::-webkit-progress-value {
   background-color: #004D3E !important;
   border-color: #004D3E;
 }
+
+/* Timeline */
+
+.tag:not(body).is-primary {
+    background-color: #004D3E !important;
+    color: #fff;
+}
