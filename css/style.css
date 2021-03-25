@@ -20,6 +20,10 @@ body {
   font-size: 1.1em;
 }
 
+.content picture{
+  margin: 0 auto;
+}
+
 .bg-img {
   top: 0;
   left: 0;
@@ -584,6 +588,11 @@ progress::-webkit-progress-value {
 
 .newsletter-icon{
   padding-right: 6rem !important;
+}
+
+.newsletter-icon img{
+  margin: 0 auto; 
+  width: 150px;
 }
 
 
