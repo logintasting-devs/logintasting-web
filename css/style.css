@@ -639,7 +639,7 @@ progress::-webkit-progress-value {
 @media screen and (max-width: 769px) {
   .kaufen{
     padding-top: 0 !important;
-    margin-top: -60px !important;
+    margin-top: -50px !important;
   }
 
   .platzhalter{
