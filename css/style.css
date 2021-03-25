@@ -647,7 +647,6 @@ progress::-webkit-progress-value {
   }
 
   .logo-markt{
-    height: 70px !important;
     width: 70px !important;
   }
 
@@ -658,7 +657,6 @@ progress::-webkit-progress-value {
 
 @media screen and (min-width: 1408px) {
   .logo-markt{
-    height: 120px !important;
     width: 120px !important;
   }
   .kaufen-box{
