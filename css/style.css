@@ -626,6 +626,32 @@ progress::-webkit-progress-value {
   }
 }
 
+/* Erwerb der Box */
+
 .logo-markt{
   width: 100px;
+}
+
+.markt img{
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 769px) {
+  .kaufen{
+    padding-top: 0 !important;
+    margin-top: -60px !important;
+  }
+
+  .platzhalter{
+    display: none !important;
+  }
+
+  .logo-markt{
+    height: 70px !important;
+    width: 70px !important;
+  }
+
+  .logo-markt-box{
+    padding-left: 0px !important;
+  }
 }
