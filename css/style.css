@@ -655,3 +655,16 @@ progress::-webkit-progress-value {
     padding-left: 0px !important;
   }
 }
+
+@media screen and (min-width: 1408px) {
+  .logo-markt{
+    height: 120px !important;
+    width: 120px !important;
+  }
+  .kaufen-box{
+    margin-bottom: 0px !important;
+  }
+  .kaufen-box2{
+    padding-top: 0px !important;
+  }
+}
