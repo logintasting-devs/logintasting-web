@@ -605,6 +605,11 @@ progress::-webkit-progress-value {
 
 /* Willkommensbild */
 
+@media screen and (min-width: 1408px) {
+  .intro-text{
+    padding-left: 50px !important;
+  }
+}
 .intro-img img{
   border-radius: 6px;
 }
