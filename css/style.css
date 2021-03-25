@@ -582,6 +582,7 @@ progress::-webkit-progress-value {
   font-family: Akrobat-Regular !important;
 }
 
+/* Newsletter */
 .newsletter{
   flex-basis: auto !important;
 }
@@ -599,5 +600,19 @@ progress::-webkit-progress-value {
 @media screen and (max-width: 1408px) {
   .newsletter-icon{
     display: none !important;
+  }
+}
+
+/* Willkommensbild */
+
+@media screen and (min-width: 769px) {
+  .intro-img img{
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .intro-img img{
+    padding-top: 0px;
   }
 }
