@@ -577,3 +577,18 @@ progress::-webkit-progress-value {
   flex-direction: column;
   font-family: Akrobat-Regular !important;
 }
+
+.newsletter{
+  flex-basis: auto !important;
+}
+
+.newsletter-icon{
+  padding-right: 6rem !important;
+}
+
+
+@media screen and (max-width: 1408px) {
+  .newsletter-icon{
+    display: none !important;
+  }
+}
