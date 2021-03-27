@@ -14,45 +14,14 @@
     justify-content: center;
     align-items: center;
   }
-  .fullpage-loader .fullpage-loader__logo {
-    position: relative;
-  }
-  .fullpage-loader .fullpage-loader__logo:after {
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: shine 2.5s infinite cubic-bezier(0.42, 0, 0.58, 1);
-    background: rgba(255, 255, 255, 0.8);
-    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
-   /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
-   /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
-   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1);
-   /* IE6-9 */
-  }
-  @keyframes shine {
-    0% {
-      transform: translateX(-100%) skew(-30deg);
-   }
-    100% {
-      transform: translateX(200%) skew(-30deg);
-   }
-  }
-  
-  .fullpage-loader video {
-  height: 400px;
-  }
-  
+
   .loading {
   
     display: flex;
   
     flex-direction: row;
+
+    margin: 0 auto;
   
   }
   
@@ -164,6 +133,39 @@
   .loading__letter:nth-child(10) {
   
     animation-delay: 1.2s;
+  }
+
+  .fullpage-loader .fullpage-loader__logo {
+    position: relative;
+  }
+  .fullpage-loader .fullpage-loader__logo:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: shine 2.5s infinite cubic-bezier(0.42, 0, 0.58, 1);
+    background: rgba(255, 255, 255, 0.8);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+   /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+   /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1);
+   /* IE6-9 */
+  }
+  @keyframes shine {
+    0% {
+      transform: translateX(-100%) skew(-30deg);
+   }
+    100% {
+      transform: translateX(200%) skew(-30deg);
+   }
+  }
   
+  .fullpage-loader video {
+  height: 400px;
   }
   /* END LOADER CSS */
