@@ -1,22 +1,27 @@
 document.addEventListener("DOMContentLoaded", e => {
     $(document).ready(function(){
         $('.customer-logos').slick({
-            slidesToShow: 6,
+            slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 2500,
             arrows: false,
             dots: false,
             pauseOnHover: false,
             responsive: [{
-                breakpoint: 768,
+                breakpoint: 1408,
                 settings: {
                     slidesToShow: 4
                 }
             }, {
-                breakpoint: 520,
+                breakpoint: 1190,
                 settings: {
                     slidesToShow: 3
+                }
+            }, {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2
                 }
             }]
         });
