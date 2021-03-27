@@ -521,6 +521,7 @@ progress::-webkit-progress-value {
 /* Green Bar */
 .greenbar {
   background-color: #004D3E;
+  background-image: url(../images/bg/Greenbar.webp);
   height: 75px;
   width: 100%;
   top: 0;
