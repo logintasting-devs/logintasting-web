@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", e => {
             slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 2000,
             arrows: false,
             dots: false,
-            pauseOnHover: false,
+            pauseOnHover: true,
             responsive: [{
                 breakpoint: 1408,
                 settings: {
@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", e => {
             }, {
                 breakpoint: 769,
                 settings: {
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             }]
         });
