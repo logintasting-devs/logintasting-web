@@ -283,6 +283,13 @@ div.arrow:hover::before {
   background: url(../images/patterns/groovepaper.webp);
 }
 
+#fotter {
+  border-radius: 6px 6px 0 0;
+  background: none;
+  background-color: #004D3E;
+  color: white;
+}
+
 /* Livestream */
 
 .livestream {
@@ -595,7 +602,7 @@ progress::-webkit-progress-value {
 }
 
 .newsletter-icon img{
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 150px;
 }
 
