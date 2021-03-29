@@ -294,6 +294,14 @@ div.arrow:hover::before {
   background-color: #EEE7DF;
 }
 
+#fotter a:active {
+  color: #F2EDED !important;
+}
+
+#fotter a:hover {
+  color: #F2EDED !important;
+}
+
 /* Livestream */
 
 .livestream {
