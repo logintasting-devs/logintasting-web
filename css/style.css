@@ -574,7 +574,7 @@ progress::-webkit-progress-value {
 }
 
 .addeventatc .addeventatc_icon {
-  background: url(../images/icon-calendar.svg) no-repeat !important;
+  background: url(../images/Icons/icon-calendar.svg) no-repeat !important;
 }
 
 .addeventatc:hover {
