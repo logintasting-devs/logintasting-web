@@ -287,7 +287,11 @@ div.arrow:hover::before {
   border-radius: 6px 6px 0 0;
   background: none;
   background-color: #004D3E;
-  color: white;
+  color: #EEE7DF;
+}
+
+#fotter hr {
+  background-color: #EEE7DF;
 }
 
 /* Livestream */
