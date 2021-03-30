@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", e => {
           hour = minute * 60,
           day = hour * 24;
   
-    let endtime = "Apr 30, 2021 19:00:00",
+    let endtime = "Apr 30, 2021 20:00:00",
         countDown = new Date(endtime).getTime(),
         x = setInterval(function() {    
   
