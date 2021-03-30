@@ -285,8 +285,8 @@ div.arrow:hover::before {
 
 #fotter {
   border-radius: 6px 6px 0 0;
-  background: none;
-  background-color: #004D3E;
+  background: url(../images/patterns/groovepaper_login-green.webp);
+  /*background-color: #004D3E;*/
   color: #EEE7DF;
 }
 
