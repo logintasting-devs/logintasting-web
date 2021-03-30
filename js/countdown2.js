@@ -18,6 +18,21 @@ document.addEventListener("DOMContentLoaded", e => {
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
   
           //do something later when date is reached
+          // If the count down is under 1 hour
+          zero = Math.floor((distance % (minute)) / second)
+          if (zero < 10 ) {
+              document.querySelector(".zero").style.display = "inline-block";
+          } else {
+            document.querySelector(".zero").style.display = "none";
+          }
+
+          zero2 = Math.floor((distance % (hour)) / (minute))
+          if (zero2 < 10 ) {
+              document.querySelector(".zero2").style.display = "inline-block";
+          } else {
+            document.querySelector(".zero2").style.display = "none";
+          }
+          
           // If the count down is under 7 days, show seconds
           if (distance < 604800000) {
             document.querySelector(".seconds").style.display = "inline-block";
