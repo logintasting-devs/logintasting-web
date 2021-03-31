@@ -241,9 +241,16 @@ div.arrow:hover::before {
   z-index: 200;
   position: relative;
   top: 10vh;
-  width: 360px;
+  width: 300px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 400px) {
+  .page {
+    width: 360px;
+  }
+}
+
 
 @media screen and (min-width: 769px) {
   .page {
