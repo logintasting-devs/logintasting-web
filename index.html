@@ -49,6 +49,7 @@
      ================================================== -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/bulma-timeline.min.css">
   <link rel="stylesheet" href="css/particles.css">
 
   <!-- fonts
@@ -379,13 +380,112 @@
             <div class="box" id="plan">
               <h1 class="title is-4">Ablauf der Verkostung</h1>
               <div class="pt-4">
-                <picture>
-                  <source media="(max-width: 769px)" srcset="images/Ablauf/Ablauf_360px.svg">
-                  <source media="(max-width: 1024px)" srcset="images/Ablauf/Ablauf_600px.svg">
-                  <source media="(max-width: 1190px)" srcset="images/Ablauf/Ablauf_640px.svg">
-                    <source media="(max-width: 1408px)" srcset="images/Ablauf/Ablauf_800px.svg">
-                  <img src="images/Ablauf/Ablauf_1000px.svg" alt="">
-                </picture>
+                <div class="columns pt-2 pl-4 pb-3">
+                  <div class="column timeline pt-0 pb-0">
+                    <header class="timeline-header">
+                      <span class="tag is-medium is-primary">Beginn</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">19:00 Uhr</p>
+                        <p>Begrüßung</p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-marker"></div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">19:10 Uhr</p>
+                        <p>Erläuterung Abendablauf </p>
+                      </div>
+                    </div>
+                    <header class="timeline-header">
+                      <span class="tag is-primary">Gin Nr.1</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/gin-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">20:45 Uhr</p>
+                        <p>Platzhalter Gin</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column timeline pt-0 pb-0">
+                    <header class="timeline-header">
+                      <span class="tag is-primary">Gin Nr.2</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/gin-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">21:15 Uhr</p>
+                        <p>Platzhalter Gin</p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/pause-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">21:30 Uhr</p>
+                        <p>Pause</p>
+                      </div>
+                    </div>
+                    <header class="timeline-header">
+                      <span class="tag is-primary">Gin Nr.3</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/gin-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">21:40 Uhr</p>
+                        <p>Platzhalter Gin</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column timeline pt-0">
+                    <header class="timeline-header">
+                      <span class="tag is-primary">Gin Nr.4</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/gin-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">21:55 Uhr</p>
+                        <p>Platzhalter Gin</p>
+                      </div>
+                    </div>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/pause-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">21:30 Uhr</p>
+                        <p>Pause</p>
+                      </div>
+                    </div>
+                    <header class="timeline-header">
+                      <span class="tag is-primary">Gin Nr.5</span>
+                    </header>
+                    <div class="timeline-item">
+                      <div class="timeline-marker is-image is-32x32">
+                        <img src="images/Icons/gin-icon.svg">
+                      </div>
+                      <div class="timeline-content has-text-left">
+                        <p class="heading">22:15 Uhr</p>
+                        <p>Platzhalter Gin</p>
+                      </div>
+                    </div>
+                    <div class="timeline-header">
+                      <span class="tag is-medium is-primary">Ende</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
