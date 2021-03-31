@@ -624,6 +624,10 @@ progress::-webkit-progress-value {
   border: none !important;
 }
 
+.timeline-content strong{
+  color: #004D3E;
+}
+
 /* Newsletter */
 .newsletter{
   flex-basis: auto !important;
