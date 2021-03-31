@@ -619,6 +619,10 @@ progress::-webkit-progress-value {
   padding: 0em 0 0 2em !important;
 }
 
+.pfeil{
+  background: none !important;
+  border: none !important;
+}
 
 /* Newsletter */
 .newsletter{
