@@ -601,6 +601,25 @@ progress::-webkit-progress-value {
   font-family: Akrobat-Regular !important;
 }
 
+.gin{
+  padding-bottom: 0.2em !important;
+  padding-top: 2em !important;
+}
+
+.ginpause{
+  padding-bottom: 0.2em !important;
+  padding-top: 3em !important;
+}
+
+.start {
+  top: 2em !important;
+}
+
+.pause{
+  padding: 0em 0 0 2em !important;
+}
+
+
 /* Newsletter */
 .newsletter{
   flex-basis: auto !important;
