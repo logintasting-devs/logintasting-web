@@ -825,3 +825,9 @@ progress::-webkit-progress-value {
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+/* Unterschrift */
+
+.unterschrift{
+  width: 200px;
+}
