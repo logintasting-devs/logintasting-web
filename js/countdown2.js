@@ -41,8 +41,6 @@ document.addEventListener("DOMContentLoaded", e => {
           if (distance < 0) {
               clearInterval(x);
               document.querySelector(".date").style.display = "none";
-              document.querySelector(".Calendar").style.display = "none";
-              document.querySelector(".livestream-button").style.display = "flex";
               clearInterval(x);
           }
         }, 0)
