@@ -303,12 +303,16 @@ div.arrow:hover::before {
   background-color: #EEE7DF;
 }
 
-#fotter a:active {
+#fotter a {
   color: #F2EDED !important;
 }
 
+#fotter a:active {
+  color: #59A87B !important;
+}
+
 #fotter a:hover {
-  color: #F2EDED !important;
+  color: #59A87B !important;
 }
 
 /* Livestream */
