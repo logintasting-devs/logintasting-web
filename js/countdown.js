@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", e => {
           if (distance < 604800000) {
             document.querySelector(".seconds").style.display = "inline-block";
           }
+
             // If the count down is finished, show button
           if (distance < 0) {
               clearInterval(x);
