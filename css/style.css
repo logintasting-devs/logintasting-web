@@ -675,21 +675,7 @@ progress::-webkit-progress-value {
     padding-left: 50px !important;
   }
 }
-.intro-img img{
-  border-radius: 6px;
-}
 
-@media screen and (min-width: 769px) {
-  .intro-img img{
-    margin-top: 10px;
-  }
-}
-
-@media screen and (min-width: 1408px) {
-  .intro-img img{
-    margin-top: 0px;
-  }
-}
 /* Gins */
 
 .card-content {
