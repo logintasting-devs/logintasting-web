@@ -864,3 +864,11 @@ progress::-webkit-progress-value {
 .unterschrift{
   width: 200px;
 }
+
+/* Infos Box */
+
+@media screen and (min-width: 400px) {
+  .title {
+    font-size: 1.5rem !important;
+  }
+}
