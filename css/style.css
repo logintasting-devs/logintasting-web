@@ -16,6 +16,10 @@ p {
   font-family: Akrobat-Regular;
 }
 
+a {
+  font-weight: bold;
+}
+
 body {
   font-size: 1.1em;
 }
@@ -681,6 +685,29 @@ progress::-webkit-progress-value {
   .intro-img img{
     margin-top: 0px;
   }
+}
+/* Gins */
+
+.card-content {
+  margin-top: -2rem !important;
+}
+
+#logo {
+  justify-content: center;
+  margin-top: -1.5rem;
+}
+
+
+.Non a {
+  color: black;
+}
+  
+.Non a:active {
+  color: #59A87B;
+}
+  
+.Non a:hover {
+  color: #59A87B;
 }
 
 /* Erwerb der Box */
