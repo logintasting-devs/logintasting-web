@@ -872,3 +872,9 @@ progress::-webkit-progress-value {
     font-size: 1.5rem !important;
   }
 }
+
+@media screen and (min-width: 1408px) {
+  .intro-img img{
+    width: 80%;
+  }
+}
