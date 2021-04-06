@@ -24,6 +24,10 @@ body {
   font-size: 1.1em;
 }
 
+strong {
+  color: #004D3E !important;
+}
+
 .content picture{
   margin: 0 auto;
 }
@@ -698,15 +702,16 @@ progress::-webkit-progress-value {
 }
 
 
-.Non a {
-  color: black;
+.Non {
+  color: #454C53;
+  font-weight: normal;
 }
   
-.Non a:active {
+.Non:active {
   color: #59A87B;
 }
   
-.Non a:hover {
+.Non:hover {
   color: #59A87B;
 }
 
