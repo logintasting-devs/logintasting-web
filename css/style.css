@@ -700,6 +700,20 @@ progress::-webkit-progress-value {
   color: #59A87B;
 }
 
+.Non2 {
+  color: #454C53;
+  font-weight: normal;
+}
+  
+.Non2:active {
+  color: #454C53;
+}
+  
+.Non2:hover {
+  color: #454C53;
+}
+
+
 /* Erwerb der Box */
 
 .logo-markt{
