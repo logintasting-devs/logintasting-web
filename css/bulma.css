@@ -362,7 +362,7 @@ body {
 }
 
 a {
-  color: #59A87B;
+  color: #004D3E;
   cursor: pointer;
   text-decoration: none;
 }
@@ -372,7 +372,7 @@ a strong {
 }
 
 a:hover {
-  color: #004D3E;
+  color: #59A87B;
 }
 
 code {
