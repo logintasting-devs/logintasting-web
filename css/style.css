@@ -899,6 +899,6 @@ progress::-webkit-progress-value {
     width: 40% !important;
   }
   .pm {
-    padding-left: 2em;
+    padding-left: 3em;
   }
 }
