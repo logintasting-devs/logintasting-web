@@ -24,6 +24,10 @@ body {
   font-size: 1.1em;
 }
 
+div {
+  font-family: Akrobat-Regular;
+}
+
 strong {
   color: #004D3E !important;
 }
@@ -904,3 +908,8 @@ progress::-webkit-progress-value {
     padding-left: 1em;
   }
 }
+.punkt{
+  font-family: Roboto Slab;
+  color: #004D3E;
+}
+
