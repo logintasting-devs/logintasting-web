@@ -891,3 +891,14 @@ progress::-webkit-progress-value {
     width: 80%;
   }
 }
+
+/* Tasting Box Infos */
+
+@media screen and (max-width: 769px) {
+  .mobile {
+    width: 40% !important;
+  }
+  .pm {
+    padding-left: 2em;
+  }
+}
