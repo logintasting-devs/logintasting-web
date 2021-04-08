@@ -894,11 +894,13 @@ progress::-webkit-progress-value {
 
 /* Tasting Box Infos */
 
+.mobile {
+  padding-right: 1.25rem;
+  padding-top: 1.25rem;
+}
+
 @media screen and (max-width: 769px) {
   .mobile {
-    width: 40% !important;
-  }
-  .pm {
-    padding-left: 3em;
+    padding-left: 1em;
   }
 }
