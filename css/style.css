@@ -913,3 +913,7 @@ progress::-webkit-progress-value {
   color: #004D3E;
 }
 
+.notification {
+  opacity: 0;
+  display: none;
+}

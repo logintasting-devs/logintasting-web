@@ -7,4 +7,14 @@ document.addEventListener("DOMContentLoaded", e => {
             menu_checkbox.checked = false
         })
     }
+
+    document.querySelector(".Ausverkauft").onclick=function(){
+        document.querySelector(".notification").style.opacity = "1";
+        document.querySelector(".notification").style.display = "block";
+      };
+
+    document.querySelector(".delete").onclick=function(){
+        document.querySelector(".notification").style.opacity = "0";
+        document.querySelector(".notification").style.display = "none";
+      };
 })
