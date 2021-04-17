@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", e => {
     document.querySelector(".Ausverkauft").onclick=function(){
         document.querySelector(".notification").style.opacity = "1";
         document.querySelector(".notification").style.display = "block";
+        document.querySelector(".Ausverkauft").style.background = "#454C53";
       };
 
     document.querySelector(".delete").onclick=function(){
