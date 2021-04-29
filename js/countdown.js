@@ -23,12 +23,22 @@ document.addEventListener("DOMContentLoaded", e => {
             document.querySelector(".seconds").style.display = "inline-block";
           }
 
+          if (distance < 7200000) {
+          document.querySelector(".livestream-button").style.display = "flex";
+          }
+
+          document.querySelector(".streamto").onclick=function(){
+            document.querySelector(".streamY").style.opacity = "1";
+            document.querySelector(".streamY").style.display = "flex";
+            document.querySelector(".streamto").style.opacity = "0";
+            document.querySelector(".streamto").style.display = "none";
+          };
+          
             // If the count down is finished, show button
           if (distance < 0) {
               clearInterval(x);
               document.querySelector(".date").style.display = "none";
               document.querySelector(".Calendar").style.display = "none";
-              document.querySelector(".livestream-button").style.display = "flex";
               clearInterval(x);
           }
         }, 0)
