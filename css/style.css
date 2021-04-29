@@ -511,10 +511,6 @@ progress::-webkit-progress-value {
 
 /* countdown */
 
-.date {
-  margin-top: 20px;
-}
-
 .date p {
   margin-top: 10px;
 }
