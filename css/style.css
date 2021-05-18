@@ -331,7 +331,6 @@ div.arrow:hover::before {
 
 .livestream {
   position: relative;
-  padding-bottom: 56.25%; /* ratio 16x9 */
   height: 0;
   overflow: hidden;
   width: 100%;
