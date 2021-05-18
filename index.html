@@ -555,18 +555,10 @@
               <h1 class="title is-4">Livestream</h1>
               <p class="subtitle is-6">(Aufzeichnung)</p>
               <div class="livestream">
-                <!-- Add a placeholder for the Twitch embed -->
-                <div id="twitch-embed"></div>
-
-                <!-- Load the Twitch embed script -->
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-                <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-                <script type="text/javascript">
-                  new Twitch.Player("twitch-embed", {
-                    video: "1006225698"
-                  });
-                </script>
+                <video controls>
+                  <source src="images/Login Tasting - Virtual Gin Tasting - Full HD.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <p class="content is-small pt-1 has-text-left">Wir bedanken uns bei allen Zuschauern.</p>
             </div>
